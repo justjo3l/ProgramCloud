@@ -2,3 +2,7 @@ h1{
   color: blue;
   text-align: center;
 }
+button:hover{
+  background-color: grey;
+  font-weight: bold;
+}
