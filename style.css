@@ -7,6 +7,24 @@ h1::selection{
   color: white;
   font-weight: lighter;
 }
+@media (max-width: 300px){
+  body{
+    background-color: black;
+    color: white;
+  }
+}
+@media (max-width: 499px){
+  body{
+    background-color: purple;
+    color: black;
+  }
+}
+@media (min-width: 500px){
+  body{
+    background-color: white;
+    color: red;
+  }
+}
 button:hover{
   background-color: grey;
   font-weight: bold;
