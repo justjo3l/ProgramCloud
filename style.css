@@ -7,6 +7,9 @@ h1::selection{
   color: white;
   font-weight: lighter;
 }
+body{
+  padding: 20px;
+}
 @media (max-width: 499px){
   body{
     background-color: black;
