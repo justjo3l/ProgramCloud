@@ -1,0 +1,42 @@
+h1{
+  color: blue;
+  text-align: center;
+}
+h1::selection{
+  background-color: black;
+  color: white;
+  font-weight: lighter;
+}
+body{
+  padding: 20px;
+}
+@media print{
+  h1{
+    color: black;
+  }
+}
+.MainDiv{
+  background-color: grey;
+  padding: 10px;
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: 200px 200px auto;
+}
+.Column-4{
+  background-color: white;
+  text-align: center;
+}
+.row{
+  padding: 20px;
+  background-color: black;
+  border: 5px solid red;
+  color: white;
+}
+.row > div{
+  background-color: grey;
+}
+button:hover{
+  background-color: grey;
+  font-weight: bold;
+}
